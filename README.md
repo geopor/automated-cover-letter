@@ -1,7 +1,7 @@
 # automated-cover-letter
 Prompts for &lt;Company> &amp; &lt;Job Title> and generates a cover letter using Applescript (Mac). 
 
-The job application process proceeds rather smoothly on sites like Glassdoor or Lever.co. One-click will autofill your details from LinkedIn, and you can attach your standard resume without any further customizations. The one issue I found slowing me down was including a cover letter for the position. Not only did this have to be customized, but a separate file had to be created for it and exported to PDF. This proved to be both time-wasting and energy-sapping when sending out 10+ applications a day. The cover-letter-automated.applescript is an attempt to elegantly speed through this issue using AppleScript on the Mac.
+The job application process proceeds rather smoothly on sites like Glassdoor or Lever.co. One-click will autofill your details from LinkedIn, and you can attach your standard resume without any further customizations. The one issue I found slowing me down was including a cover letter for the position. Not only did this have to be customized, but a separate file had to be created for it and exported to PDF. This proved to be both time-wasting and energy-sapping when sending out 10+ applications a day. The automated-cover-letter.applescript is an attempt to elegantly speed through this issue using AppleScript on the Mac.
 
 ## Explanation of the Script
 The first two sections are what you will have to edit, your name & your custom body of your cover letter.
