@@ -30,7 +30,7 @@ The intent of the script is to produce a quick cover letter but what if you want
 
 ![alt text](https://github.com/geopor/automated-cover-letter/blob/main/enter-cover-letter.png?raw=true)
 
-(note that <body of cover letter> text above is actually whatever you entered for the variable bodyText at the beginning of the script, "Some of my work experience and skills ... ")
+(note that '<body of your cover letter>' text above is actually whatever you entered for the variable bodyText at the beginning of the script, "Some of my work experience and skills ... ")
 
 The resulting PDF export is done through Pages which is a free word processing app that comes with most Macs. The filename is constructed to not include any spaces and to also append both the company name and your name to the end of it:
 
