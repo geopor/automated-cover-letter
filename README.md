@@ -17,7 +17,7 @@ The next two variables the script needs will be retrieved via a popup dialog whe
 -- Popup a dialog box to retrieve Company and Job Title
 set a to text returned of (display dialog "Please enter 1) Company & 2) Job Title, separating them with a comma:" default answer "")
 ```
-![alt text](https://github.com/geopor/automated-cover-letter/blob/main/enter-company-and-job?raw=true)
+![alt text](https://github.com/geopor/automated-cover-letter/blob/main/enter-company-and-job.png?raw=true)
 
 I was sometimes adding a space after the comma which messed up the formatting of the final cover letter so I added a check to remove the leading space on the 2nd variable entered (Job Title) just in case:
 ```applescript
