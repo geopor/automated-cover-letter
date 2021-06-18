@@ -17,7 +17,9 @@ The next two variables the script needs will be retrieved via a popup dialog whe
 -- Popup a dialog box to retrieve Company and Job Title
 set a to text returned of (display dialog "Please enter 1) Company & 2) Job Title, separating them with a comma:" default answer "")
 ```
-![alt text](https://github.com/geopor/automated-cover-letter/blob/main/enter-company-and-job.png?raw=true)
+<p align="center">
+  <img src="https://github.com/geopor/automated-cover-letter/blob/main/enter-company-and-job.png">
+</p>
 
 I was sometimes adding a space after the comma which messed up the formatting of the final cover letter so I added a check to remove the leading space on the 2nd variable entered (Job Title) just in case:
 ```applescript
@@ -28,7 +30,9 @@ end if
 ```
 The intent of the script is to produce a quick cover letter but what if you wanted to add a few things to make it more targeted towards the role you're applying for? The script actually has a pre-flight dialog to let you look over the generated cover letter. The dialog box is editable so you can make any necessary tweaks before exporting to PDF:
 
-![alt text](https://github.com/geopor/automated-cover-letter/blob/main/enter-cover-letter.png?raw=true)
+<p align="center">
+  <img src="https://github.com/geopor/automated-cover-letter/blob/main/enter-cover-letter.png">
+</p>
 
 The resulting PDF export is done through Pages which is a free word processing app that comes with most Macs. The filename is constructed to not include any spaces and to also append both the company name and your name to the end of it:
 
