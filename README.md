@@ -33,9 +33,8 @@ The intent of the script is to produce a quick cover letter but what if you want
 The resulting PDF export is done through Pages which is a free word processing app that comes with most Macs. The filename is constructed to not include any spaces and to also append both the company name and your name to the end of it:
 
 ```applescript
--- Replace space with hyphen. This creates a cover letter filename that includes your actual name and doesn't have any spaces
 set myHyphenName to do shell script "echo " & quoted form of myName & " | tr \" \" \"_\""
--- set documentName to "Cover_Letter-" & jobCompany & "-" & myHyphenName
+set documentName to "Cover_Letter-" & jobCompany & "-" & myHyphenName
 ```
 
 ## How to Launch the Script
