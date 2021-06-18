@@ -9,7 +9,7 @@ The first two sections are what you will have to edit, your name & your custom b
 -- 1. Change this to your name
 set myName to "My Name" as string
 -- 2. Change this to the body text of your cover letter (i.e. your work experience & skills that make you suited for the job)
-set bodyText to "Some of my work experience and skills 
+set bodyText to "Some of my work experience and skills ... "
 ```
 The next two variables the script needs will be retrieved via a popup dialog when you run the script. Here is the part of the AppleScript requesting these two variables:
 
@@ -29,6 +29,8 @@ end if
 The intent of the script is to produce a quick cover letter but what if you wanted to add a few things to make it more targeted towards the role you're applying for? The script actually has a pre-flight dialog to let you look over the generated cover letter. The dialog box is editable so you can make any necessary tweaks before exporting to PDF:
 
 ![alt text](https://github.com/geopor/automated-cover-letter/blob/main/enter-cover-letter.png?raw=true)
+
+(note that <body of cover letter> text above is actually whatever you entered for the variable bodyText at the beginning of the script, "Some of my work experience and skills ... ")
 
 The resulting PDF export is done through Pages which is a free word processing app that comes with most Macs. The filename is constructed to not include any spaces and to also append both the company name and your name to the end of it:
 
